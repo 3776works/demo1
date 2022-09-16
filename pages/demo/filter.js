@@ -93,7 +93,6 @@ export default function Filter() {
             onChange={filterHandler}
             value="english"
             id="english"
-            // checked={filterTags.includes('english')}
           />
           <span>English</span>
         </label>
@@ -103,7 +102,6 @@ export default function Filter() {
             onChange={filterHandler}
             value="french"
             id="french"
-            // checked={filterTags.includes('french')}
           />
           <span>French</span>
         </label>
@@ -113,7 +111,6 @@ export default function Filter() {
             onChange={filterHandler}
             value="kids"
             id="kids"
-            // checked={filterTags.includes('kids')}
           />
           <span>Kids</span>
         </label>
@@ -123,7 +120,6 @@ export default function Filter() {
             onChange={filterHandler}
             value="adults"
             id="adults"
-            // checked={filterTags.includes('adults')}
           />
           <span>Adults</span>
         </label>
