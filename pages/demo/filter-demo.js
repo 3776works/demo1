@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-export default function Filter() {
+export default function FilterDemo() {
   const DATA = [
     {
       id: 1,
