@@ -8,7 +8,6 @@ export default function GetIP() {
     // Connect ipapi.co with fetch()
     const response = await fetch('https://ipapi.co/json/')
     const data = await response.json()
-    console.log(data)
     // Set the IP address to the constant `ip`
     setIp(data.ip)
   }
@@ -19,6 +18,6 @@ export default function GetIP() {
   }, [])
 
   return (
-    <p>あなたのIPアドレスは、「{ip}」です。</p>
+    <p>Your IP address is {ip}.</p>
   )
 }
